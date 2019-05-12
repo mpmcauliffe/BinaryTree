@@ -33,5 +33,31 @@ public class Main {
         System.out.println(intTree.min());
         System.out.println(intTree.max());
         System.out.print("\n\n");
+
+        intTree.delete(15);
+        System.out.println("Traversing tree post delete");
+        System.out.print("DATA = ");
+        intTree.traverseInOrder();
+        System.out.print("\n\n");
+
+        intTree.delete(27);
+        System.out.println("Traversing tree post delete");
+        System.out.print("DATA = ");
+        intTree.traverseInOrder();
+        System.out.print("\n\n");
+
+        intTree.delete(25);
+        System.out.println("Traversing tree post delete");
+        System.out.print("DATA = ");
+        intTree.traverseInOrder();
+        System.out.print("\n\n");
+
+        intTree.delete(8888);
+        System.out.println("Traversing tree false delete");
+        System.out.print("DATA = ");
+        intTree.traverseInOrder();
+        System.out.print("\n\n");
+
+        System.out.print("\n\n");
     }
 }

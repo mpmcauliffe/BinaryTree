@@ -76,7 +76,7 @@ public class TreeNode {
 
     public int getData() { return data; }
 
-    public void setDate(int date) { this.data = date; }
+    public void setData(int data) { this.data = data; }
 
     public TreeNode getLeftChild() { return leftChild; }
 
