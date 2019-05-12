@@ -20,6 +20,16 @@ public class Tree {
         return null;
     }
 
+    public void delete(int value) {
+        root = delete(root, value);
+    }
+
+    private TreeNode delete(TreeNode subtreeRoot, int value) {
+
+
+        return null;
+    }
+
     public int min() {
         if (root == null) {
             return Integer.MIN_VALUE;
