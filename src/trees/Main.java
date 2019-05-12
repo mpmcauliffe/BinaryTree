@@ -18,9 +18,14 @@ public class Main {
         intTree.insert(17);
 
         System.out.print("\n\n");
-        System.out.println("Traversing tree");
+        System.out.println("Traversing tree IN order");
         System.out.print("DATA = ");
         intTree.traverseInOrder();
+        System.out.print("\n\n");
+
+        System.out.println("Traversing tree PRE order");
+        System.out.print("DATA = ");
+        intTree.traversePreorder();
         System.out.print("\n\n");
 
         System.out.println("Searching tree");

@@ -73,4 +73,11 @@ public class Tree {
             root.traverseInOrder();
         }
     }
+
+    public void traversePreorder() {
+        if (root != null) {
+            root.traversePreorder();
+        }
+    }
+
 }
