@@ -74,7 +74,7 @@ public class TreeNode {
     }
 
 
-    public int getDate() { return data; }
+    public int getData() { return data; }
 
     public void setDate(int date) { this.data = date; }
 
